@@ -1,0 +1,8 @@
+telegram:
+  bot-name: EfestTestBot
+  bot-token: ${TELEGRAM_BOT_TOKEN}
+  webhook-path: https://2089-78-85-5-33.eu.ngrok.io
+  api-url: https://api.telegram.org
+
+server:
+  port: 8334
