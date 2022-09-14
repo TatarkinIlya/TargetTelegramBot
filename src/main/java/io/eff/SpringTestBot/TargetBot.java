@@ -38,7 +38,7 @@ public class TargetBot extends SpringWebhookBot {
 
 
             try {
-                execute(new SendMessage(String.valueOf(chat_id), "Привет, "  + update.getMessage().getFrom().getLastName() + " " + update.getMessage().getFrom().getFirstName() + "! По твоему запросу \"" + update.getMessage().getText() + "\" пока ничего не найдено или бот не знает такую команду"));
+                execute(new SendMessage(String.valueOf(chat_id), "Hi, "  + update.getMessage().getFrom().getLastName() + " " + update.getMessage().getFrom().getFirstName() + "! По твоему запросу \"" + update.getMessage().getText() + "\" пока ничего не найдено или бот не знает такую команду"));
             } catch (TelegramApiException e) {
                 e.printStackTrace();
             }
